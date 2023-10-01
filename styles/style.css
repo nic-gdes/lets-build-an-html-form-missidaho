@@ -18,3 +18,21 @@ header, main, footer {
 header, footer {
     text-align: center;
 }
+.forms {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.currentemotion {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.otheremotion {
+    display: flex;
+    
+ 
+}
+.Other {
+    padding-left: 7px;
+}

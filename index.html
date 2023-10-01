@@ -15,7 +15,74 @@
     <main>
         <!-- Edit code below this line -->
 
+        <div class="forms">
+            <h2>Emotional Therapy Form</h2>
+            <label for="name">Name</label>
+            <input type="text" id="Name" name="user_name">
 
+            <label for="contact">Email Address</label>
+            <input type="email" id="contact" name="user_email" required>
+
+            <label for="age">Age</label>
+            <input type="number" id="age" name="user_age">
+
+            <label for="gender">Gender</label>
+            <select name="Gender" id="gender">
+                <option value="Man">Male</option>
+                <option value="Woman">Female</option>
+            </select>
+            <div class="currentemotion">
+                <h3>What Emotion Are You Feeling?</h3>
+                <div class="emotion_items">
+                    <input type="radio" id="happy" name="current_emotion" value="happy">
+                    <label for="happy">Happy</label>
+                </div>
+                <div class="emotion_items">
+                    <input type="radio" id="sad" name="current_emotion" value="sad">
+                    <label for="sad">Sad</label>
+                </div>
+                <div class="emotion_items">
+                    <input type="radio" id="tired" name="current_emotion" value="tired">
+                    <label for="tired">Tired</label>
+                </div>
+                <div class="emotion_items">
+                    <input type="radio" id="angry" name="current_emotion" value="angry">
+                    <label for="angry">Angry</label>
+                </div>
+                <div class="emotion_items">
+                    <input type="radio" id="cheerful" name="current_emotion" value="cheerful">
+                    <label for="cheerful">Cheerful</label>
+                </div>
+                <div class="emotion_items">
+                    <input type="radio" id="scarred" name="current_emotion" value="scarred">
+                    <label for="scarred">Scarred</label>
+                </div>
+                <div class="emotion_items">
+                    <input type="radio" id="Lonely" name="current_emotion" value="Lonely">
+                    <label for="Lonely">Lonely</label>
+                </div>
+                <div class="emotion_items">
+                    <input type="radio" id="Confident" name="current_emotion" value="Confident">
+                    <label for="Confident">Confident</label>
+                </div>
+                <div class="emotion_items otheremotion">
+                    <input type="radio" id="other" name="current_emotion" value="other">
+                    <label for="other">Other</label>
+                    <div class="Other">
+                        <label for="other_emotion">Which is?</label>
+                        <input type="text" name="other_emotion" id="other_emotion">
+                    </div>
+                </div>
+            </div>
+            <label for="why_the_emotion">Why are you feeling this emotion?</label>
+            <textarea id="w" name="why_the_emotion" rows="7"></textarea>
+            <label for="how_can_we_help">Do You Know How We May Be Able To Help You? (If Not that's OK too!)</label>
+            <textarea id="how_can_we_help" name="how_can_we_help" rows="7"></textarea>
+
+        </div>
+        <form action="./results.html" method="POST">
+            <input type="submit"/>
+          </form>
 
         <!-- Edit code above this line -->
     </main>
