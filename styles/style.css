@@ -26,7 +26,7 @@ header, footer {
 .currentemotion {
     display: flex;
     flex-direction: column;
-    padding: 10px;
+    /* padding: 10px; */
 }
 .otheremotion {
     display: flex;
@@ -35,4 +35,7 @@ header, footer {
 }
 .Other {
     padding-left: 7px;
+}
+.formswrapper {
+    padding: 10px;
 }
